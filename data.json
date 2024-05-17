@@ -1,0 +1,61 @@
+// 20240504165811
+// https://newsapi.org/v2/top-headlines?country=in&apiKey=fccd4de5b6564c639006eaebda4cc663&q=cricket
+
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "NDTV News"
+        },
+        "author": null,
+        "title": "On Camera, BJP MLA Threatens Cop For Turning Off Shivraj Chouhan's Mike - NDTV",
+        "description": "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
+        "url": "https://www.ndtv.com",
+        "urlToImage": "https://cdn.ndtv.com/common/images/ogndtv.png",
+        "publishedAt": "2024-05-03T09:08:26Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hindustan Times"
+        },
+        "author": "HT Sports Desk",
+        "title": "Dale Steyn devises 'baseball' solution after major LBW loophole exposed during last-ball finish in SRH vs RR match - Hindustan Times",
+        "description": "Dale Steyn suggested an interesting change to cricketing rules as many fans pointed out a big LBW loophole during SRH's match against RR | Crickit",
+        "url": "https://www.hindustantimes.com/cricket/dale-steyn-devises-baseball-solution-after-major-lbw-loophole-exposed-during-last-ball-finish-in-srh-vs-rr-match-101714721911637.html",
+        "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/05/03/1600x900/rovman_powell_1714723740942_1714723749210.jpg",
+        "publishedAt": "2024-05-03T08:13:19Z",
+        "content": "Sunrisers Hyderabad turned the tables against the Rajasthan Royals to register a thrilling victory by one run at the Rajiv Gandhi International Stadium on Thursday. The hosts had only two runs to def… [+2567 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "International Cricket Council"
+        },
+        "author": "icc",
+        "title": "New No.1 Test team crowned following annual rankings update - ICC Cricket",
+        "description": "Change at the top of the ICC Men's Test team rankings, following the annual update by the ICC.",
+        "url": "https://www.icc-cricket.com/news/new-no-1-test-team-crowned-following-annual-rankings-update",
+        "urlToImage": "https://images.icc-cricket.com/image/upload/t_ratio16_9-size40/prd/doxtqqlzcypw8m48tuog",
+        "publishedAt": "2024-05-03T08:04:28Z",
+        "content": "It helped improve Australia's rating to 124 points, four clear of their closest rival and last year's World Test Championship runners up India (120) and 19 points clear of third-placed England (105).… [+220 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "TOI Sports Desk",
+        "title": "T20 World Cup: 'Virat Kohli should open, Rohit Sharma should bat at...' - The Times of India",
+        "description": "Cricket News: Ajay Jadeja recommended Virat Kohli opening the innings and captain Rohit Sharma at three for T20 World Cup. Jadeja supported Hardik Pandya despite hi",
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/icc-mens-t20-world-cup/t20-world-cup-virat-kohli-should-open-rohit-sharma-should-bat-at-/articleshow/109806325.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-109806268,width-1070,height-580,imgsize-30580,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "publishedAt": "2024-05-03T06:15:00Z",
+        "content": null
+      }
+    ]
+  }
