@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 export default class NewsItem extends Component {  
 
   render() {
@@ -27,7 +26,7 @@ export default class NewsItem extends Component {
               : description
             : "Click Read more"}
         </p>
-        <p className="text-xs text-yellow-400 absolute bottom-1 border rounded-full p-1">{date.split("T").reverse().join(" ").split("Z").join("")}</p>
+        <p className="text-xs text-yellow-200 absolute bottom-1 border border-yellow-400 rounded-full p-1">{date.split("T").reverse().join(" ").split("Z").join("")}</p>
         <a
           className="bg-orange-700 text-white rounded p-1 absolute right-1 bottom-1"
           href={newsUrl}

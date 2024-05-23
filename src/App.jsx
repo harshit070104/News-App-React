@@ -1,8 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import NewsBox from "./components/NewsBox";
@@ -14,25 +10,33 @@ export default class App extends Component {
 
     this.state = {
       category: "general",
-      country: "in",
+      country: "in"
     }    
+
+    this.apiKey = import.meta.env.VITE_NEWS_API
   }
 
   async componentDidMount() {
-    console.log("mounted from app");   
+    // console.log("mounted from app");   
   }
   componentDidUpdate() {    
-    console.log("updated from app");    
+    document.title = `NEWS 360° - ${this.state.category.toUpperCase()} NEWS`    
+    // console.log("updated from app");    
   }
 
   componentWillUnmount() {
-    console.log("unmount from app");  
+    // console.log("unmount from app");  
   }
 
-  updateCategory = (value) => {
+  updateCategory = (value) => {    
     this.setState({
-      category: value,
-      change : false
+      category: value      
+    });
+  };
+
+  updateCountry = (value) => {
+    this.setState({
+      country: value      
     });
   };
 
@@ -43,14 +47,17 @@ export default class App extends Component {
           state={this.state}
           setState={this.setState}
           updateCategory={this.updateCategory}
+          updateCountry={this.updateCountry}          
         />
         
         <NewsBox
-          key={this.state.category}
+          key={`${this.state.category}-${this.state.country}`}
           state={this.state}
           setState={this.setState}
           pageSize={20}
           category={this.state.category}
+          country={this.state.country}
+          apiKey={this.apiKey}
         />
       </>
     );
